@@ -1,0 +1,280 @@
+/* =======================Google_fonts=============================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Vina+Sans&display=swap');
+
+/* =======================Default_cssSettings=============================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color:#f5f7fa;
+    --hover-bg:#a5d6a7;
+    --span-bg:#237d31;
+    --text-color:#000;
+    --primary-color:#2194f3;
+    --bg2-color:#263238;
+    --big-Font:3rem;
+    --big-font2:2rem;
+    --p-Font:1rem;
+}
+
+/* =======================header design=============================== */
+
+/* img{
+    width: 100%;
+} */
+
+section{
+    padding: 70px 10% 70px;
+}
+
+body{
+    background: #fff;
+}
+
+#header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 6% 30px;
+    background: var(--bg-color);
+}
+
+.header_logo img{
+    width: 100%;
+    height: auto;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar li a{
+    margin: 0 15px;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.NavBar li a:hover{
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.header_button button{
+    display: inline-block;
+    margin: 0 1px;
+    padding: 0.50rem 2rem;
+    text-transform: capitalize;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--span-bg);
+    border: none;
+    background: transparent;
+}
+
+.btn:hover{
+    background: var(--hover-bg);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: var(--span-bg);
+    border: none;
+    border-radius: 7px;
+}
+
+.btn2:hover{
+    background: var(--hover-bg);
+    cursor: pointer;
+    color: var(--span-bg);
+}
+
+.menu i{
+    font-size: 30px;
+    display: none;
+}
+
+/* =======================home design section=============================== */
+.home{
+    width: 100%;
+    height: autoa;
+    background: var(--bg-color);
+}
+
+.home_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px,auto));
+    gap: 2rem;
+}
+
+.firstgrid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.firstgrid h1{
+    font-size: var(--big-Font);
+    /* font-size: var(--big-font); */
+    font-weight: 700;
+    color: #000;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+}
+
+.firstgrid h1 span{
+    color: var(--span-bg);
+}
+
+.firstgrid p{
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    font-weight: 300;
+    margin-top: -1rem;
+}
+
+.homeBtn .btn3{
+    display: inline-block;
+    padding: 0.60rem 2rem;
+    text-transform: capitalize;
+    color: #fff;
+    background: var(--span-bg);
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.btn3:hover{
+    background: var(--hover-bg);
+    cursor: pointer;
+    color: #237d31;
+}
+
+.secondgrid img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-left: 4rem;
+}
+
+/* =======================service design section=============================== */
+.serviceText{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.serviceText h1{
+    font-size: var(--big-Font);
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.serviceText p{
+    font-size: var(--p-Font);
+    font-weight: 400;
+    color: #000;
+}
+
+.serviceIcons{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,auto));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 img{
+    max-width: 40px;
+    width: 100%;
+}
+
+.service_Com{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 3.45rem;
+}
+
+.service_Com h3{
+    font-size: var(--big-Font);
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.service_Com p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.serMember{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    gap: 2rem;
+    margin-top: 3.70rem;
+}
+
+.member{
+    text-align: center;
+    background: #fff;
+    padding: 3rem 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.micon i{
+    padding: 1rem;
+    font-size: 2rem;
+    color: #237d31;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background: var(--hover-bg);
+}
+
+.member h4{
+    font-size: 1.20rem;
+    font-weight: 700;
+    color: #263238;
+    margin-bottom: 1rem;
+}
+
+.member p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #263238;
+}
