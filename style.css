@@ -278,3 +278,68 @@ body{
     line-height: 1.5;
     color: #263238;
 }
+
+/* =======================help design section=============================== */
+.help{
+    background: var(--bg-color);
+}
+
+.help_container{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px,auto));
+    gap: 2rem;
+}
+
+.help_grid{
+    width: 100%;
+    height: auto;
+}
+
+.help_grid h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #263238;
+}
+
+.help_grid h2 span{
+    color: #237d31;
+}
+
+.help_grid p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.help_grid2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grid2_boxs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid2_boxs h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #263238;
+}
+
+.grid2_boxs h3 small{
+    font-weight: 300;
+    color: #263238;
+}
+
+.grid2_boxs i{
+    margin-right: 1rem;
+    font-size: 3rem;
+    color: #237d31;
+}
